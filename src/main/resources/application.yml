@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: weather-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/weather_app
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+
+
+
+
+weather:
+  api:
+    url: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/
+    key: HG2AU4M2B247UJFCEBY3UR3HP
