@@ -1,5 +1,7 @@
 🌦️ Weather API — Spring Boot + Redis + PostgreSQL
 
+https://roadmap.sh/projects/weather-api-wrapper-service
+
 A production-ready Weather API built with Spring Boot, featuring:
 
 - Real-time Weather Fetching from a 3rd-party API (Visual Crossing)
